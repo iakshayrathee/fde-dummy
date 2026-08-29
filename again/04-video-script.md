@@ -63,9 +63,9 @@ Read the **SAY** blocks verbatim. **SCREEN** is what's visible at that moment.
 
 ### `0:00 – 0:20` — COLD OPEN
 
-**SCREEN:** Pure black. A thin white audio waveform, centred, moving with the audio.
-English subtitles lower-third, one line at a time, in sync. **No title. No name. No
-logo. No introduction.** This visual treatment — black + waveform — is reused every
+**SCREEN:** **Slides 1–5.** Pure black. A thin white audio waveform, centred. English
+subtitles lower-third, one line per slide, in sync with the voice. **No title. No
+name. No logo. No introduction.** This treatment — black + waveform — is reused every
 time a call plays, so calls always look the same.
 
 **SAY:** Nothing. This is A1 playing.
@@ -101,9 +101,10 @@ to camera at 0:20, no fade.
 
 ### `0:20 – 0:45` — THE FRAME · 59 words
 
-**SCREEN:** `0:20` **V1 — you on camera.** Medium close-up, chest up. Plain wall,
-soft light from a window at 45°. Eyes to the lens.
-`0:38` cut away to **C2**, then `0:42` **C3** — your voice continues over both.
+**SCREEN:** `0:20` **slide 6 — you on camera.** Medium close-up, chest up. Plain
+wall, soft light from a window at 45°. Eyes to the lens. Stop filming after
+*"Translation does nothing for them."*
+`0:35` **slide 7**, then `0:40` **slide 8** — your voice continues over both.
 
 **SAY:**
 
@@ -125,8 +126,8 @@ soft light from a window at 45°. Eyes to the lens.
 
 ### `0:45 – 1:10` — WHY THEY PAY · 60 words
 
-**SCREEN:** `0:45` **C4** — three lines appearing one at a time, timed to your voice.
-`1:05` **C5** — full screen, large type.
+**SCREEN:** `0:45` **slide 9** — three lines appearing one at a time, timed to your
+voice. `1:05` **slide 10** — full screen, large type.
 
 **SAY:**
 
@@ -147,10 +148,10 @@ said why anyone would fund it. Deliver it flatly, like a fact, not like a pitch.
 
 ### `1:10 – 1:40` — ONBOARDING · 71 words
 
-**SCREEN:** `1:10` **C6** — builds in three steps as you name them: form pages →
-thumbprint stamped on top → red strike-through across the whole thing.
-`1:25` **C7** — the cold-open waveform returns, now labelled **THE CONTRACT**.
-`1:36` **C8** — full screen.
+**SCREEN:** `1:10` **slide 11** — builds in three steps as you name them: form pages
+→ thumbprint stamped on top → red strike-through across the whole thing.
+`1:25` **slide 12** — the cold-open waveform returns, labelled **THE CONTRACT**.
+`1:36` **slide 13** — full screen.
 
 **SAY:**
 
@@ -173,12 +174,11 @@ that the call *is* the document.
 
 ### `1:40 – 2:22` — ATTENDANCE · 85 words + 6s audio
 
-**SCREEN:** `1:40` **C9** — two statistics, sourced.
-`1:52` **C10** — full screen, one line.
-`2:02` **C11** — the chart. This is the most important card in the video; build
-notes in §4.
-`2:10` back to **black + waveform** for A2.
-`2:16` **C12** — plain card for the closing line.
+**SCREEN:** `1:40` **slide 14** — two statistics, sourced.
+`1:52` **slide 15** — full screen, one line.
+`2:02` **slide 16** — the chart. Most important visual in the video.
+`2:10` **slide 17** — back to black + waveform for A2.
+`2:16` **slide 18** — plain card for the closing line.
 
 **SAY:**
 
@@ -212,10 +212,10 @@ rush it and do not cut it.
 
 ### `2:22 – 2:58` — SALARY · 86 words
 
-**SCREEN:** `2:22` **C13** — two bars, then the gap annotates itself.
-`2:38` **C14** — the PF line, full screen, while you say it.
-`2:47` **C15** — 38% / 71%, sourced.
-`2:54` **C16** — her three delivery choices as three small line drawings.
+**SCREEN:** `2:22` **slide 19** — two bars, then the gap annotates itself.
+`2:38` **slide 20** — the PF line, full screen, while you say it.
+`2:47` **slide 21** — 38% / 71%, sourced.
+`2:54` **slide 22** — her three delivery choices as three small line drawings.
 
 **SAY:**
 
@@ -240,11 +240,10 @@ constrained worker gets a choice, not a downgrade.
 
 ### `2:58 – 3:22` — TRAINING · 58 words
 
-**SCREEN:** `2:58` **C17** — one video still: over-the-shoulder view of hands at a
+**SCREEN:** `2:58` **slide 23** — one still: over-the-shoulder view of hands at a
 sewing machine. **No text on the image.** The absence of text *is* the point.
-`3:08` **C18** — same still, with eight language labels stacked beside it and a
-single audio-track icon.
-`3:17` **C19** — full screen.
+`3:08` **slide 24** — same still, eight language names beside it.
+`3:17` **slide 25** — full screen.
 
 **SAY:**
 
@@ -264,11 +263,11 @@ argument, not an emotional one.
 
 ### `3:22 – 4:07` — TRUST · 95 words + 5s audio
 
-**SCREEN:** `3:22` **C20** — one line, full screen, hold ~2s.
-`3:30` **C21** — four rules appearing one line at a time, timed to your voice.
-`3:52` **C22** — the forced-resignations source card, small and sourced.
-`3:58` back to **black + waveform** for A3.
-`4:03` **C23** — full screen, hold to the end of the beat.
+**SCREEN:** `3:22` **slide 26** — one line, full screen, hold ~2s.
+`3:30` **slide 27** — four rules appearing one line at a time, timed to your voice.
+`3:52` **slide 28** — the forced-resignations source card, small and sourced.
+`3:58` **slide 29** — back to black + waveform for A3.
+`4:03` **slide 30** — full screen, hold to the end of the beat.
 
 **SAY:**
 
@@ -303,11 +302,12 @@ peak of the video.
 
 ### `4:07 – 4:45` — CLOSE · 90 words
 
-**SCREEN:** `4:07` **V2 — you on camera.** *Identical framing to V1* — same distance,
-same wall, same light. That's what makes it read as a bookend.
-`4:15` cut away to **C24** for ~6s while you keep talking.
-`4:21` back to you, and **stay on your face through the final three lines.** The last
-line must not be a card.
+**SCREEN:** `4:07` **slide 31 — you on camera** for the whole beat. *Identical framing
+to slide 6* — same distance, same wall, same light. That's what makes it read as a
+bookend.
+
+**Stay on your face for all 38 seconds. No cutaways.** The close is the one place
+where your face matters more than any card, and it keeps the edit simple.
 
 **SAY:**
 
@@ -366,47 +366,24 @@ it leaves them with a question instead of a summary.
 
 ---
 
-## 4. The 24 cards
+## 4. Slides
 
-Dark background, white type, one idea each. Canva or Google Slides is fine.
+**The complete slide list lives in `HOW-TO-MAKE-THE-VIDEO.md`.** It is not
+duplicated here � two lists would drift apart, and slide numbers in this script refer
+to that one list.
 
-| # | At | Content |
-|---|---|---|
-| C1 | 0:00 | waveform only, subtitles beneath |
-| C2 | 0:38 | **Reading is the accommodation. Listening is the baseline.** |
-| C3 | 0:42 | **She never composes. She only confirms.** |
-| C4 | 0:45 | `₹13,000/month` · `30% below other industries` · `Noida, April 2026 — payslips didn't match hours` — sourced |
-| C5 | 1:05 | **Under one day of her wages, per year.** |
-| C6 | 1:10 | form pages → thumbprint → red strike-through, 3 steps |
-| C7 | 1:25 | the cold-open waveform, labelled **THE CONTRACT** |
-| C8 | 1:36 | **A number can't be faked by nodding.** |
-| C9 | 1:40 | `6.5%` Aadhaar biometric failure · `36%` Telangana worn fingerprints — sourced |
-| C10 | 1:52 | **The work destroys the fingerprint.** |
-| C11 | 2:02 | **the chart — see build note below** |
-| C12 | 2:16 | *A dashboard tells her afterwards. A manager tells her while she can still choose.* |
-| C13 | 2:22 | two bars `₹13,100` / `₹12,480`, gap bracketed **₹620 less**, then splitting into `2 days = ₹520` + `PF = ₹100` |
-| C14 | 2:38 | **PF is your money. It stays in your name.** |
-| C15 | 2:47 | `38%` of women own a phone · `71%` of men — sourced |
-| C16 | 2:54 | three small drawings: padlocked phone · phone with a clock · screen beside a sewing machine |
-| C17 | 2:58 | one still: hands at a sewing machine, over the shoulder, **no text** |
-| C18 | 3:08 | same still + 8 language labels + one audio-track icon |
-| C19 | 3:17 | **I'd never measure completion.** |
-| C20 | 3:22 | **Her distrust is rational.** |
-| C21 | 3:30 | four rules, one line at a time: *says it's a machine* · *authority is borrowed* · *one key to a named human* · *never delivers termination* |
-| C22 | 3:52 | forced resignations documented — GATWU / Alternative Law Forum, sourced |
-| C23 | 4:03 | **An AI that only enforces is a supervisor. An AI that advocates is a manager.** |
-| C24 | 4:15 | `38%` of workers at large Indian factories are contract labour — sourced |
+There are **32 slides**. Slide numbers used in the SCREEN directions above map
+directly onto it. The two that need real effort:
 
-**C11 build note — spend the extra twenty minutes here.** Six vertical bars of
-different heights, each labelled as a cohort. A horizontal dashed line across them
-labelled **"average — 6%"**. One bar spikes far above it, highlighted in red,
-labelled **"this cohort — 31%"**. Caption underneath: **Never the average.**
+- **Slide 16 � the chart.** Six bars of different heights, a dotted "average � 6%"
+  line across them, one bar spiking to 31% in red, captioned **Never the average.**
+  This makes the whole measurement argument in two seconds without a word, and it is
+  the image most likely to be remembered.
+- **Slide 19 � the delta.** Two bars, `?13,100` and `?12,480`, with the gap
+  bracketed and labelled **?620 less**.
 
-That single image is the whole argument about measurement, made in two seconds
-without a word. It's the card most likely to be remembered.
-
----
-
+Every slide with a statistic carries its source in small type, bottom-left. Source
+list is at the foot of `06-one-pager.md`.
 ## 5. Trims, pre-counted
 
 Only if your read-aloud test comes in long. Taking the first three lands you at ~4:42.
