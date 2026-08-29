@@ -95,29 +95,12 @@ Dark background, one idea per card, type large enough to read on a phone. No
 logos, no icons, no stock photography of smiling workers — that would undercut
 the whole argument.
 
-| # | Beat | Content |
-|---|---|---|
-| C1 | 0:00 | audio waveform only, subtitles beneath |
-| C2 | 0:38 | **Reading is the accommodation. Listening is the baseline.** |
-| C3 | 0:42 | **She never composes. She only confirms.** |
-| C4 | 0:45 | **₹13,000/mo · −30% vs other industries · Noida, April 2026** — sourced |
-| C5 | 1:05 | **Under one day of her wages, per year.** |
-| C6 | 1:12 | a form, then a thumbprint, struck through |
-| C7 | 1:25 | waveform, labelled "the contract" |
-| C8 | 1:36 | **A number can't be faked by nodding.** |
-| C9 | 1:42 | **6.5%** Aadhaar biometric failure · **36%** Telangana · **NIST FRVT** — sourced |
-| C10 | 1:52 | **The work destroys the fingerprint.** |
-| C11 | 2:05 | a bar chart split by cohort, with the average drawn as a flat line through it — captioned **Never the average.** |
-| C12 | 2:30 | two bars, ₹13,100 and ₹12,480, gap labelled **₹620** |
-| C13 | 2:50 | **38%** of women own a phone · **71%** of men |
-| C14 | 3:05 | one video frame, then 8 language labels stacked on it |
-| C15 | 3:35 | four trust rules, appearing one line at a time |
-| C16 | 4:02 | **An AI that only enforces is a supervisor. An AI that advocates is a manager.** |
-| C17 | 4:15 | **38%** of workers at large Indian factories are contract labour — sourced |
-| C18 | 4:45 | **Can she state her own pay, unprompted, before payday?** silent, 4s |
+**The card list has moved.** All 24 cards, with their exact cue times and the C11
+chart build note, now live in **`04-video-script.md` §4**, next to the words they
+appear under. Keeping two copies in sync was a defect waiting to happen.
 
-C11 is worth the extra effort. A chart where the average hides the cohort that's
-failing is the entire argument about measurement, made visually in two seconds.
+This file covers **technique only**: how to record the audio, how to make it sound
+like a phone call, subtitling, assembly order and the pre-submit checklist.
 
 ---
 
