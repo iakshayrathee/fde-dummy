@@ -115,7 +115,7 @@ This is the only slide list you need. Ignore section 4 of the script file.
 | 9 | `₹13,000/month` · `30% below other industries` · `Noida, April 2026 — payslips didn't match hours` | sourced |
 | 10 | Under one day of her wages, per year. | |
 | 11 | A form, then a thumbprint on it, then a red line struck through the whole thing | |
-| 12 | An audio waveform shape, labelled **THE CONTRACT** | |
+| 12 | An audio waveform shape, labelled **THE CONTRACT** — small subtext: *hers to replay · her voice is her key* | |
 | 13 | A number can't be faked by nodding. | |
 | 14 | `6.5%` Aadhaar biometric failure · `36%` Telangana worn fingerprints | sourced |
 | 15 | The work destroys the fingerprint. | |
@@ -124,8 +124,8 @@ This is the only slide list you need. Ignore section 4 of the script file.
 | 18 | A dashboard tells her afterwards. A manager tells her while she can still choose. | |
 | 19 | **TWO BARS** — see below | |
 | 20 | PF is your money. It stays in your name. | |
-| 21 | `38%` of women own a phone · `71%` of men | sourced |
-| 22 | Three small drawings: a padlocked phone · a phone with a clock · a screen beside a sewing machine | |
+| 21 | `38%` of women own a phone · `71%` of men — subtext: *the handset is often shared, so a shared handset never hears her pay* | sourced |
+| 22 | Header: **Verified first — her voiceprint, or the gate at her line.** Below it, three small drawings: a padlocked phone · a phone with a clock · a screen beside a sewing machine | |
 | 23 | A photo of hands at a sewing machine, over the shoulder. **No text on it.** | |
 | 24 | Same photo, with 8 language names listed beside it | |
 | 25 | I'd never measure completion. | |
@@ -177,12 +177,12 @@ Slides 17 and 29 are single slides, so the audio just plays and you move on.
 
 The words you say are in `04-video-script.md` section 2, in the boxes marked
 **SAY:**. There are eight of them. Read them in order. That's the entire script —
-604 words.
+610 words.
 
 **Before you record: read it out loud once with a stopwatch.** All eight SAY blocks,
-start to finish. You should land around **4 minutes 15 seconds**. If you're over
-4:30, you're talking too fast to be clear, or you need the trims listed in the
-script's section 5.
+start to finish. You should land around **4 minutes 20 seconds**. If you're over
+4:35, take the trims listed in the script's section 5 now — the phone calls and the
+silent card add another ~35 seconds on top of your narration.
 
 **Then record:**
 
@@ -297,15 +297,15 @@ Eight blocks, read in this order. Full text in `04-video-script.md` §2.
 | 14–16 | narrate | "Fingerprints are the obvious answer…" | 36s |
 | 17 | *phone call 2 plays* | *(Hindi audio)* | 6s |
 | 18 | narrate | "A dashboard tells her afterwards…" | 6s |
-| 19–22 | narrate | "This ships first." | 36s |
-| 23–25 | narrate | "Non-literate is not non-skilled." | 24s |
-| 26–28 | narrate | "She's been lied to by a recruiting agent." | 40s |
+| 19–22 | narrate | "This ships first." | 41s |
+| 23–25 | narrate | "Non-literate is not non-skilled." | 23s |
+| 26–28 | narrate | "She's been lied to by a recruiting agent." | 38s |
 | 29 | *phone call 3 plays* | *(Hindi audio)* | 5s |
 | 30 | narrate | "An AI that only enforces…" | 6s |
 | 31 | **on camera** | "I wouldn't build all five." | 38s |
 | 32 | silent | *(say nothing)* | 4s |
 
-**Total: 4 minutes 48 seconds.**
+**Total: 4 minutes 51 seconds.**
 
 ---
 

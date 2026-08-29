@@ -163,12 +163,24 @@ produced the architecture.
 Not reliable enough to be the only gate, and yes, spoofable by a family member
 with a recording. So it isn't load-bearing alone. Layers:
 
-- voiceprint as a *first* check, cheap and passive
-- a short spoken or keyed PIN chosen at onboarding for anything sensitive
+- voiceprint as a *first* check, cheap and passive, enrolled during the onboarding
+  disclosure
+- a short keyed PIN chosen at onboarding for anything sensitive on a phone
+- **at a line-side screen, the same measured gate that marks her present at
+  attendance doubles as her identity** — so the kiosk needs no PIN she'd have to
+  read, and identity reuses the attendance modality instead of standing up a second
+  system
 - **the shared-phone flag from onboarding overrides everything** — if she said the
-  handset is shared, salary is never pushed to it at all
-- on failure, the AI degrades to a content-free message: "I have information about
-  your work, please call back from somewhere private"
+  handset is shared, a pay figure is never pushed to it
+- on failure, the AI degrades to a **flat, content-free** message — *"I have
+  information about your work"* — and nothing more. It deliberately does **not** add
+  "call back from somewhere private": in a household where a male relative controls
+  the handset, an instruction to seek privacy is itself a signal that there is
+  something to hide.
+
+And the rule isn't payday-only: **every proactive call verifies first** — absence,
+advocacy, dispute callback — so a shared handset never hears a number, whichever flow
+placed the call.
 
 The design goal isn't perfect authentication. It's that **a failed check never
 leaks a number.**

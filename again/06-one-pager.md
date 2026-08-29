@@ -47,6 +47,13 @@ tomorrow, ~80% survives.
 | **Training** | Silent video, narration as a **separate audio track**. Shoot once, localise into 8 languages for 8 voice recordings. | The exam is her **defect rate over 50 pieces**. Never measure completion. |
 | **Trust** | A track record on money, plus a named human exit on every call. | Once a month it **finds money in her favour**, unprompted |
 
+**Verification, every flow.** Before any figure is spoken, the AI confirms it's her —
+her voiceprint on a phone, or the same gate that marks her present at a line-side
+screen, so there's no PIN to read. It runs identically on payday, absence, and
+advocacy calls, so **a shared handset never hears her pay**, and she picks the channel
+money reaches her on. This is what keeps the design from quietly assuming the personal
+phone that the 38% figure says most women don't own.
+
 ---
 
 ## The numbers, with sources

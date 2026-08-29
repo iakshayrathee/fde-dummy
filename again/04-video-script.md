@@ -7,12 +7,17 @@ them. For a company that ran a recruitment agency for two years before writing
 software, demonstrating fieldwork instinct is the higher-signal choice. Full
 reasoning in `00-pick-decision.md`.
 
-**Delivery math — read this, it matters.** This script is **604 spoken words** at
-**143 wpm**, which is 253 seconds of speech, plus 31 seconds of call audio and a
-4-second silent card. **Total 4:48.** Margin to the cap: 12 seconds.
+**Delivery math — read this, it matters.** This script is **610 spoken words** at
+**143 wpm**, which is 256 seconds of speech, plus 31 seconds of call audio and a
+4-second silent card. **Total 4:51.** Margin to the cap: 9 seconds.
 
 That word count is machine-counted, not estimated. A previous version claimed 618
 words / 4:56 and actually ran 702 words / **5:35**. If you edit any line, re-count.
+
+**v3 change:** the onboarding and salary blocks now name the identity check
+(voiceprint, or the attendance gate) and the channel rule — a shared handset never
+hears her pay — so the video stops assuming a private phone it elsewhere says she
+lacks. Funded by three trims already applied in §5; don't take them twice.
 
 > **Do this before anything else:** read all eight narration blocks aloud against a
 > stopwatch at the pace you actually intend to use. If you exceed 265 seconds, take
@@ -32,7 +37,7 @@ audio.
 | **A1** | Cold-open salary call, two voices | 20s |
 | **A2** | Absence + cost call, one voice | 6s |
 | **A3** | Advocacy call, one voice | 5s |
-| **N1** | Your narration, 8 blocks | 253s |
+| **N1** | Your narration, 8 blocks | 256s |
 | **V1** | You on camera, opening | ~17s |
 | **V2** | You on camera, closing | ~32s |
 | **C1–C24** | Cards | see §4 |
@@ -158,8 +163,8 @@ said why anyone would fund it. Deliver it flatly, like a fact, not like a pitch.
 > Onboarding today is forms she can't read, a thumbprint, and an agent's promise.
 > The lie is installed at hiring and detonates on payday.
 >
-> So it becomes a recorded disclosure. The AI states the deal aloud. The recording
-> is the contract, and she keeps it.
+> So it becomes a recorded disclosure. The recording is the contract — hers to
+> replay, and her voice on it becomes her key.
 >
 > Then it checks comprehension with arithmetic, not agreement. *"If you take two
 > days off, how much less will you get?"*
@@ -167,8 +172,11 @@ said why anyone would fund it. Deliver it flatly, like a fact, not like a pitch.
 > **A number can't be faked by nodding.**
 
 **DIRECTION:** Say the quoted question the way the AI would — slower, warmer, a
-half-beat pause before it. C7 reusing the opening waveform is the visual argument
-that the call *is* the document.
+half-beat pause before it. Slide 12 reusing the opening waveform is the visual argument
+that the call *is* the document. *"Her voice on it becomes her key"* is the
+enrolment moment: the same disclosure that forms the contract also captures her
+voiceprint, which is how every later call verifies it's her before it says anything
+about money. That one line closes the identity question the salary beat pays off.
 
 ---
 
@@ -222,19 +230,24 @@ rush it and do not cut it.
 > This ships first.
 >
 > She doesn't want a payslip. She wants to know why this month is less. So the call
-> explains **the delta, never the total.** Rupees and days.
+> explains **the delta, never the total.**
 >
 > "PF is your money, it stays in your name." **One sentence between savings and
 > theft.**
 >
-> And nothing is spoken until she's verified. Thirty-eight percent of Indian women
-> own a phone, against seventy-one percent of men. The handset is often her
-> husband's.
+> And nothing is spoken until it knows it's her — her voiceprint, or the gate that
+> marks her present. Thirty-eight percent of women own a phone, against seventy-one
+> percent of men; the handset is often her husband's.
 >
-> So **she** chooses where money reaches her — her phone, or a screen at her own line.
+> So a **shared phone never hears her pay.** She chooses the channel — her own
+> phone, or a screen at her line.
 
-**DIRECTION:** Hit the word "she" in the last line. The point is that the most
-constrained worker gets a choice, not a downgrade.
+**DIRECTION:** This beat now also answers the question a sharp reviewer asks first —
+*how does a worker who can't read verify herself on a phone that isn't hers?* Land
+*"her voiceprint, or the gate that marks her present"* plainly; it reuses the
+attendance gate as identity, so no PIN to read. Then hit *"shared phone never hears
+her pay"* and *"She chooses"* — the most constrained worker gets a choice, not a
+downgrade.
 
 ---
 
@@ -251,7 +264,7 @@ sewing machine. **No text on the image.** The absence of text *is* the point.
 > the machine, no text. Narration is a **separate audio track** — shoot once,
 > localise into eight languages for eight voice recordings.
 >
-> The teacher is the best operator on her line, in her dialect.
+> The teacher is the best operator on her line.
 >
 > No quiz. The exam is her defect rate over fifty pieces. **I'd never measure
 > completion.**
@@ -273,7 +286,7 @@ argument, not an emotional one.
 
 > She's been lied to by a recruiting agent. Her distrust is rational.
 >
-> Trust isn't a tone of voice. It's a **track record on money**, plus a way out.
+> Trust isn't a tone of voice. It's a **track record on money.**
 >
 > It says it's a machine in the first sentence. Its authority is borrowed — her
 > supervisor introduces it. Every call ends with one key to a named human.
@@ -324,8 +337,56 @@ where your face matters more than any card, and it keeps the edit simple.
 >
 > **Make it useful to her before it's useful to them.**
 
-**DIRECTION:** The caveat is you naming a hole in your own design. Deliver it
-evenly — no apology in the voice. Then a clear beat of silence before "Because…"
+**DIRECTION:** Deliver the contract-labour part evenly, like a fact you looked up —
+**no apology in the voice, no upward inflection.** "Week one I'd check" should sound
+certain, not worried. Then a clear beat of silence before "Because…"
+
+---
+
+### ALTERNATE TAKE for the close — 93 words, recommended
+
+Same information, more confident register. The word "caveat" invites the reading
+*"my answer has a problem"*; this version centres the **action** instead of the doubt.
+*"That number decides my sequence"* is an engineer's sentence — it says you know which
+variable controls your plan.
+
+Costs 3 extra words (+1s). Runtime becomes **4:52**, margin 8s. Still passes.
+
+> I wouldn't build all five. Salary first — one plant, no hardware.
+>
+> And here's what I'd verify in week one. Thirty-eight percent of workers at large
+> Indian factories are contract labour. If a contractor holds their pay data, the
+> salary explanation can't reach them — so that number decides my sequence. If it's
+> high, attendance goes first.
+>
+> Because if the first thing it does is check whether she showed up, it's
+> surveillance. If it finds her missing three hundred and forty rupees, it's her
+> manager.
+>
+> **Make it useful to her before it's useful to them.**
+
+**Pick one and delete the other before recording.** Use the original if you can
+deliver *"one caveat that would change everything"* with total evenness — naming a
+hole in your own design is the rarer signal. Use this alternate otherwise; it keeps
+about 95% of that signal and is harder to deliver badly.
+
+### Why this beat is in the video at all
+
+If it feels like under-selling, it isn't, for three reasons worth knowing before you
+record it:
+
+1. **Prioritisation is a senior skill.** Anyone can list five things. Far fewer can
+   say which ships first and defend it. You already answered all five questions in
+   the preceding 3½ minutes — this beat is about *sequence*, not scope.
+2. **The role is this.** Forward Deployed Engineer means finding what breaks on
+   contact with a customer. A candidate who has already found where their own plan
+   breaks is demonstrating the job rather than describing it.
+3. **They already know about contract labour.** Founders who ran a recruitment agency
+   for this exact workforce for two years are not going to be surprised by it. If you
+   pitch a wage product for 100,000 factory workers and never mention that a third
+   are on contractor payrolls, the conclusion isn't that you were confident — it's
+   that you don't know the market. Raising it yourself is free. Getting caught by it
+   in the follow-up interview is not.
 
 ---
 
@@ -353,16 +414,18 @@ it leaves them with a question instead of a summary.
 | Cold open | — | 20s | 20 |
 | Frame | 59 | — | 25 |
 | Why they pay | 60 | — | 25 |
-| Onboarding | 71 | — | 30 |
+| Onboarding | 72 | — | 30 |
 | Attendance | 85 | 6s | 42 |
-| Salary | 86 | — | 36 |
-| Training | 58 | — | 24 |
-| Trust | 95 | 5s | 45 |
+| Salary | 98 | — | 41 |
+| Training | 55 | — | 23 |
+| Trust | 91 | 5s | 43 |
 | Close | 90 | — | 38 |
 | Final card | — | — | 4 |
-| **Total** | **604** | **31s** | **288 → 4:48** |
+| **Total** | **610** | **31s** | **291 → 4:51** |
 
-**Margin to the 5:00 cap: 12 seconds.** Re-count after any edit.
+**Margin to the 5:00 cap: 9 seconds.** Re-count after any edit. The verification and
+channel lines cost the Salary beat ~5 seconds; the three trims in §5 (already
+applied) buy most of it back.
 
 ---
 
@@ -382,26 +445,44 @@ directly onto it. The two that need real effort:
 - **Slide 19 � the delta.** Two bars, `?13,100` and `?12,480`, with the gap
   bracketed and labelled **?620 less**.
 
+**v3 additions (verification + channel).** So the video shows what the narration now
+claims: slide 12 gains subtext *hers to replay · her voice is her key*; slide 21
+gains *a shared handset never hears her pay*; slide 22 gains the header *Verified
+first — her voiceprint, or the gate at her line*. No new slide, no renumbering — the
+count stays 32.
+
 Every slide with a statistic carries its source in small type, bottom-left. Source
 list is at the foot of `06-one-pager.md`.
-## 5. Trims, pre-counted
+## 5. Trims — three already applied in v3
 
-Only if your read-aloud test comes in long. Taking the first three lands you at ~4:42.
+v3 folded the verification and channel lines into Onboarding and Salary and paid for
+them with the trims below. **These are already gone from the script — do not remove
+them a second time.**
 
-| Cut | Where | Words | Safe? |
+| Cut | Where | Words | Status |
 |---|---|---|---|
-| *"plus a way out"* | Trust | −4 | yes — the named-human line carries it |
-| *"in her dialect"* | Training | −3 | yes |
-| *"Rupees and days."* | Salary | −3 | yes — C13 shows it |
-| *"The AI states the deal aloud."* | Onboarding | −6 | reluctantly |
+| *"plus a way out"* | Trust | −4 | applied |
+| *"in her dialect"* | Training | −3 | applied |
+| *"Rupees and days."* | Salary | −3 | applied |
+| *"The AI states the deal aloud."* | Onboarding | −6 | applied — folded into the new disclosure line |
+
+**If the read-aloud test still runs over 5:00, these emergency trims stay safe:**
+
+| Cut | Where | Words |
+|---|---|---|
+| *"This ships first."* | Salary | −3 |
+| *"against seventy-one percent of men"* | Salary | −4 — the 38% figure alone carries it |
+| *"one plant, no hardware"* | Close | −4 |
 
 **Never cut:** the two rules in the frame · the fingerprint line · *"Never the
-average"* · the PF line · supervisor-versus-manager · the contract-labour caveat ·
-the close.
+average"* · the PF line · the verification line (*"her voiceprint, or the gate that
+marks her present"*) · *"a shared phone never hears her pay"* · supervisor-versus-manager
+· the contract-labour caveat · the close.
 
-Two of those look like filler on the page and land as credibility on screen. *"Never
-the average"* is you refusing to recommend something you haven't measured. The
-contract-labour caveat is you naming a hole in your own design. Keep both.
+The verification and channel lines are the two additions a senior reviewer is most
+likely to probe — they answer *"how does she prove it's her on a phone that isn't
+hers?"* and *"doesn't the rest of the design assume a phone she doesn't own?"* Cutting
+them re-opens both holes. Treat them as un-cuttable.
 
 ---
 

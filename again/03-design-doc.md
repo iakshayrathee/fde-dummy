@@ -150,16 +150,21 @@ same problem, six weeks apart.
    rate, attendance incentive, every deduction and what it is for, supervisor's
    name, and an estimate of her actual first-month take-home in rupees. She
    confirms each material term with one word or one key.
-2. **The recording is the artifact.** Timestamped, stored, and handed back to her
-   as a replayable voice note she can play for her husband, her father, or a
-   friend before she commits. A contract she can hear beats a contract she signs
-   blind.
+2. **The recording is the artifact.** Timestamped, stored, and *retrievable through
+   the channel she chooses at onboarding* (§3.3) — her handset if she controls one, a
+   line-side kiosk if she does not — so she can replay it for her husband, her
+   father, or a friend before she commits. The word is *retrievable*, not "kept on
+   her phone": this design cannot assume a personal device it elsewhere says most
+   women lack. A contract she can hear beats a contract she signs blind.
 3. **Documents without typing.** She never keys an Aadhaar number. Photo capture
    at the plant kiosk, OCR extracts it, the AI reads it back digit by digit, she
    confirms. Production becomes confirmation.
 4. **Identity enrolled correctly from day one.** Voiceprint plus a face photo at
-   the kiosk. Explicitly *not* fingerprint. And one question that shapes
-   everything downstream: *"Is this phone yours, or do you share it?"*
+   the kiosk. Explicitly *not* fingerprint. The voiceprint captured here is exactly
+   what every later call uses to confirm it is her before it says a word about money
+   (§3.3) — so enrolment and the privacy gate are one investment, not two. And one
+   question that shapes everything downstream: *"Is this phone yours, or do you share
+   it?"*
 5. **Language detected, not declared.** Her language comes from the first ten
    seconds of speech, not from the form. Dialect stored separately from language.
 
@@ -319,8 +324,17 @@ invisible and compounding. Read the outstanding balance and repayment schedule
 aloud monthly, and informal debt becomes visible to both sides.
 
 **The privacy gate — direct consequence of shared handsets.** Before any figure
-is spoken, verify it is her: voiceprint match on her first sentence, or a keyed
-PIN.
+is spoken, verify it is her, by whichever channel she is on: a **voiceprint** match
+on her first sentence on a phone, a keyed **PIN** if she prefers one, or — at a
+line-side screen — **the same measured gate that marks her present** at attendance,
+so the kiosk needs no PIN she would have to read. Identity reuses the attendance
+modality rather than standing up a second one; the voiceprint itself is enrolled
+during the onboarding disclosure (§3.1).
+
+**This gate is not specific to payday.** *Every* proactive call runs it first — the
+absence call (§3.2), the monthly advocacy call (§3.5), the dispute callback. A shared
+handset therefore never hears a rupee figure, whichever flow placed the call, because
+verification lives at the channel rather than inside any one feature.
 
 If verification fails, the AI says only *"I have information about your work"* and
 **nothing** about money. Note what it does **not** say. An earlier draft had it
