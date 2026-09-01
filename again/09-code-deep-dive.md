@@ -5,6 +5,12 @@ Companion to `08-founder-round-prep.md`. That file is the person/process layer.
 decisions behind them, and how to defend them at a CTO/senior-FDE level. Every claim
 here is grounded in your own committed code so it holds up under probing.
 
+> **New here / a term trips you up?** Keep `12-plain-language-glossary.md` open next to
+> this. Every jargon word below (deterministic, queue, idempotency, LangGraph, WER, JWT…)
+> is explained there in one plain sentence with an analogy. The key spots below also have
+> an inline *"Plain:"* note. You should be able to say each idea in simple words — that
+> ability *is* the FDE skill.
+
 > **Positioning in one line:**
 > "knowled.ai wasn't a team handing me tickets. I was the engineer. I sat with
 > special educators and school leaders, watched how they actually worked, and built
@@ -82,6 +88,12 @@ Single file, ~500 lines, that you wrote: `backend/src/lib/adaptive-engine.ts`. A
 - Every decision returns a human-readable `reason` (e.g. *"Three consecutive errors
   detected — reducing difficulty"*).
 
+> **Plain:** the game watches the child's last few answers. Do well (get most right,
+> answer quickly) and it steps up a level; struggle (miss three in a row, or go slow and
+> mix up look-alike letters) and it steps down. "Mastered" means a clear bar — 80%+
+> correct, fast, few mix-ups. These are plain rules, so I can always say *why* the level
+> changed.
+
 **The decision to defend — why rules, not ML:**
 > "Three reasons, all from the field. One, cold start — on day one I had zero
 > training data, and an untrained model is worse than a good heuristic. Two,
@@ -132,6 +144,12 @@ classroom networks. Features, all real in the code:
 - **Guaranteed delivery on exit:** `navigator.sendBeacon` on `beforeunload`.
 - **Network-aware:** flushes on the `online` event; queues silently when `offline`.
 - **Quota-safe:** on `QuotaExceededError`, trims to the most recent 50 and retries.
+
+> **Plain:** when the internet drops, the app doesn't lose the child's work. It saves
+> each answer on the device with a unique ID (so it can't be counted twice), keeps
+> trying to send — waiting longer between tries so it doesn't spam a weak connection —
+> and even flushes the last answers if the tab is closed. Exactly what a delivery
+> worker on a patchy phone signal needs too.
 
 > "A classroom's wi-fi drops constantly. A teacher should never lose a child's work
 > because a request timed out. So the client is offline-first: idempotent IDs so a
@@ -185,6 +203,12 @@ the LangGraph is a 3-node chain: **`analyse_scores` (pure Python)** identifies w
 domains and which rule fired → **`generate_rationale` (LLM)** writes plain English →
 **`generate_interventions` (LLM)** suggests actions.
 
+> **Plain:** think of it as a 3-step assembly line. Step 1 is ordinary code (no AI) that
+> works out which subjects are weak and which rule made the child "high risk." Only then
+> do steps 2 and 3 — the AI — turn that into a readable paragraph and a list of
+> suggestions. The AI never picks the risk level; it only explains a decision the plain
+> rules already made.
+
 > "The model that a child is Tier 3 is never made by a language model. It's made by
 > deterministic, auditable rules that a school psychologist could read. The LLM's only
 > job is to explain the decision the math already made and suggest interventions. If
@@ -225,6 +249,12 @@ agent receives `educator_override_reason` as context.
   closures," because I'd been bitten by enqueuing stale in-memory data.
 - Failure of report generation marks `aiStatus: FAILED` but leaves the session
   submitted — degrade, don't crash.
+
+> **Plain:** the slow AI work is put on a "to-do list" (a queue) and done in the
+> background, so the teacher never waits. Each task has a fixed ID so it can't run
+> twice, and a time limit so it can't hang forever. And if the AI fails completely, the
+> teacher still gets the basic report — the app degrades to a simpler version instead of
+> breaking. (A broken escalator is still stairs.)
 
 > "An educator entering 40 students' scores can't wait on 40 sequential LLM calls, and
 > the LLM sometimes times out or rate-limits. So AI is background work on queues with

@@ -5,6 +5,9 @@ of the other four to test range: *"How would you have approached the driver one?
 doc gives you a crisp, defensible take on each — not a full solution, a **10-minute
 whiteboard answer** that shows your design worldview generalises.
 
+> Terms like IVR, USSD, take-rate, funnel, sensitivity analysis, and human-in-the-loop
+> are explained in plain language in `12-plain-language-glossary.md` (§7 and §8).
+
 > **The meta-move for all four:** answer them in the *same voice* as your #3
 > submission, so they see one coherent engineer, not four disconnected opinions. Your
 > recurring principles:

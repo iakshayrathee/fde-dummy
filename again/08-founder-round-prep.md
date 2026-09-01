@@ -9,6 +9,9 @@ your previous work, and *how you actually arrived at this submission*.
 > Companion docs: design in `03-design-doc.md`, the full product/tech/ethics Q&A in
 > `07-qa-prep.md`. This file is the **person and process** layer. Don't duplicate —
 > when a design question comes up, answer briefly and point yourself back to `07`.
+>
+> **Any technical word you're unsure of** (ASR, WER, hybrid voice architecture, TTS,
+> DPDP…) is explained in plain language with an analogy in `12-plain-language-glossary.md`.
 
 ---
 

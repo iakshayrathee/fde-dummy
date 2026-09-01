@@ -3,6 +3,9 @@
 The only doc you reread in the 30 minutes before the call. Everything else (08/09/10)
 is reference. Goal: **principles you can improvise from, not scripts you recite.**
 
+> Any term below you can't explain simply → `12-plain-language-glossary.md` (plain
+> meaning + analogy for every technical word in this pack).
+
 ---
 
 ## STEP 0 — Lock your knowled.ai line (do this first, it governs everything)
@@ -49,14 +52,22 @@ literally happened. If it didn't, talk about the *constraint* you designed for
    *explains* it (`tier_rationale.py`: a pure-Python `analyse_scores` node feeds the LLM
    nodes). → "A model never decides something consequential about a person; math does,
    AI phrases it. That's the boundary I'd hold for a voice HR agent."
+   *(Plain: fixed math — like a calculator — decides the risk level; the AI just writes
+   the explanation. So the serious decision is predictable, not an AI guess.)*
 2. **Offline-first resilience.** The literacy app's `attempt-queue.ts`: UUID idempotency,
    localStorage persistence, exponential-backoff retry, `sendBeacon` on tab close,
    flush-on-reconnect. → "A classroom's wifi drops; a worker's on 2G in a basement. Same
    problem. Nothing is lost."
+   *(Plain: the app keeps the child's answers on the device when the internet drops,
+   gives each a unique ID so it can't be saved twice, and keeps retrying — waiting a bit
+   longer each time — until it's safely sent.)*
 3. **Explainable over clever.** The adaptive engine is rule-based, not ML — mastery =
    ≥80% accuracy AND ≤4s AND <20% confusion errors; every change returns a `reason`.
    → "Cold-start, explainable to a teacher, testable. I chose the simple correct thing
    first, not because I couldn't do ML."
+   *(Plain: I used clear rules, not a black-box AI, to decide when to make the game
+   harder — so I could tell a teacher exactly why it changed, and because on day one I
+   had no data to train an AI on anyway.)*
 
 Plus the recurring one: **human override, but with a required justification** (educator
 can override the AI tier only by typing why).

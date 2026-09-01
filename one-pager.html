@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Akshay Rathee — FDE Challenge #3 Appendix</title>
+<style>
+  @page { size: A4; margin: 13mm; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1b1b1b;
+    font-size: 12px;
+    line-height: 1.4;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  .name { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+  .sub { font-size: 13px; font-weight: 700; margin-top: 2px; color: #222; }
+  .companion { font-size: 10.5px; color: #666; font-style: italic; margin-top: 2px; }
+  .rule { border: 0; border-top: 2px solid #1b1b1b; margin: 8px 0; }
+  h2 {
+    font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.8px;
+    margin: 13px 0 5px; border-bottom: 1px solid #bbb; padding-bottom: 3px; color: #000;
+  }
+  ul { list-style: none; }
+  li { margin-bottom: 6px; padding-left: 12px; position: relative; }
+  li::before { content: "▪"; position: absolute; left: 0; color: #555; font-size: 9px; top: 2px; }
+  b { font-weight: 700; }
+  i { color: #333; }
+  .thesis {
+    background: #f1f1f1; border-left: 4px solid #1b1b1b;
+    padding: 9px 13px; margin: 9px 0;
+  }
+  .thesis .big { font-size: 15px; font-weight: 700; }
+  .thesis .small { font-size: 11px; color: #333; margin-top: 3px; }
+  .cols {
+    column-count: 2; column-gap: 22px; column-rule: 1px solid #e2e2e2;
+    margin-top: 4px;
+  }
+  .cols h2 { break-after: avoid; margin-top: 0; }
+  .cols li { break-inside: avoid; }
+  .cols ul { margin-bottom: 4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 10.5px; margin-top: 4px; }
+  td { border-bottom: 1px solid #ddd; padding: 4px 6px; vertical-align: top; }
+  td:nth-child(1) { width: 52%; }
+  td:nth-child(2) { width: 24%; font-weight: 700; }
+  td:nth-child(3) { width: 24%; color: #555; text-align: right; }
+  .foot { font-size: 9px; color: #999; margin-top: 8px; text-align: right; font-style: italic; }
+</style>
+</head>
+<body>
+
+  <div class="name">Akshay Rathee — Forward Deployed Engineer Submission</div>
+  <div class="sub">Challenge #3 — Audio-First Workforce System for Non-Literate Factory Workers</div>
+  <div class="companion">Companion to the 5-minute video.</div>
+  <hr class="rule">
+
+  <h2>The Reality</h2>
+  <ul>
+    <li><b>Customer:</b> multi-plant apparel manufacturer, 100,000 workers, mostly migrant women. Wages = piece rate + attendance incentive − statutory deductions.</li>
+    <li><b>Two populations, not one.</b> 40% can't read <i>English</i> → a translation problem, solved with vernacular. 20% (20,000 people) can't read <i>any</i> language → the real design problem; translation does nothing for them.</li>
+    <li>Literacy-assuming SaaS produces wage confusion, attrition, and production stoppages.</li>
+  </ul>
+
+  <div class="thesis">
+    <div class="big">Reading is the accommodation. Listening is the baseline.</div>
+    <div class="small">Audio over shared or personal phones + passive sensing at the plant. Zero new hardware on the floor.</div>
+  </div>
+
+  <ul>
+    <li><b>The interaction rule: She never composes. She only confirms.</b> Odia ASR sits near 35% word error (vs Hindi ~16%), so open speech never touches anything consequential. For consent she must <i>produce a number</i> — a number can't be faked by nodding.</li>
+  </ul>
+
+  <div class="cols">
+    <h2>The Five Workflows</h2>
+    <ul>
+      <li><b>Onboarding — the contract.</b> Forms + thumbprints are coerced. Replace with a recorded audio disclosure she can replay; her voice on it becomes her key. Comprehension tested by arithmetic ("take two days off — how much less?"), not "do you understand?"</li>
+      <li><b>Attendance — no unmeasured biometrics.</b> Work destroys fingerprints (~36% verification failure, Telangana). Presence is passive: she walks in, she's present. Every supervisor override triggers an evening verification call <b>to her</b> — the audit loop that makes discretion visible; three gate failures auto-schedule re-enrolment. Absence triggers a cost-preview: <i>"an unpaid day lowers your bonus by ~₹250"</i> — while she can still choose. <b>Measure false-non-match at their gate for two weeks, by cohort. Never the average.</b></li>
+      <li><b>Salary — explain the delta.</b> Not a payslip. Proactively explain why this month differs from last (absence, PF, overtime), in rupees and days. <i>"PF is your money, it stays in your name"</i> — one sentence between savings and theft. <b>Verified First:</b> nothing about pay is spoken until voiceprint (phone) or the gate (line-side screen) confirms it's her — so a shared handset never hears her pay.</li>
+      <li><b>Training — demonstration, not instruction.</b> Non-literate ≠ non-skilled. Silent video at the machine + narration as a <i>separate</i> audio track: shoot once, localise into 8 languages for 8 recordings. Metric = defect rate over 50 pieces. Never measure completion.</li>
+      <li><b>Trust — track record over tone.</b> Her distrust is rational; she's been lied to by a recruiting agent. The AI says it's a machine, borrows authority from her supervisor, ends every call with one key to a named human, and <b>never delivers termination or discipline</b> (unions here have documented forced resignations — a commitment they can enforce). Monthly it advocates: <i>"₹340 of last month's overtime never reached you — I've sent it to payroll."</i> <b>An AI that only enforces is a supervisor. An AI that advocates is a manager.</b></li>
+    </ul>
+
+    <h2>Business Logic &amp; Metrics</h2>
+    <ul>
+      <li><b>Sequencing:</b> salary variance calls first — one plant, no hardware, uses payroll data they already have. Attendance capex goes <i>after</i> trust exists. <b>Make it useful to her before it's useful to them.</b></li>
+      <li><b>Unit economics:</b> ~₹350 per worker per year — under one day of her wages.</li>
+      <li><b>Breakeven:</b> must prevent ~4 attrition points/year to pay for itself — falsifiable against their own numbers.</li>
+      <li><b>The blindspot:</b> ~38% of workers at large Indian factories are contract labour. If a contractor holds their pay data, the salary wedge can't reach them — the most precarious people in the building. Week-one discovery measures this share first; if high, attendance ships before salary.</li>
+      <li><b>North-star KPI:</b> <i>Can she state her own pay, unprompted, before payday?</i> Everything else is a proxy.</li>
+    </ul>
+  </div>
+
+  <h2>Data Citations</h2>
+  <table>
+    <tr><td>Odia vs Hindi speech recognition</td><td>~35% vs ~16% WER</td><td>arXiv ASR benchmark</td></tr>
+    <tr><td>Aadhaar biometric / worn-fingerprint failure</td><td>~6.5% / ~36%</td><td>Policy Circle / HuffPost</td></tr>
+    <tr><td>Face recognition bias (varies by algorithm)</td><td>quality-driven</td><td>NIST FRVT</td></tr>
+    <tr><td>Phone ownership, women vs men</td><td>38% vs 71%</td><td>Yale EGC / Inclusion Econ.</td></tr>
+    <tr><td>Contract labour at 100+ worker firms</td><td>~38%</td><td>NBER w29151</td></tr>
+    <tr><td>Karnataka garment wage</td><td>~₹13,000/mo, −30%</td><td>GATWU via Times of India</td></tr>
+  </table>
+
+
+</body>
+</html>
